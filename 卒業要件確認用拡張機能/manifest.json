@@ -1,0 +1,12 @@
+{
+    "name": "卒業要件確認用拡張機能",
+    "description": "本拡張機能は，埼玉大学工学部の学生が作成したもので，非公式です．",
+    "version": "4.2",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://risyu.saitama-u.ac.jp/portal/StudentApp/ReferResults/Results.aspx"],
+            "js": ["content_scripts.js"]
+        }
+    ]
+}
